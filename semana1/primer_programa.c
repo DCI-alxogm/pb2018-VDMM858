@@ -8,12 +8,12 @@
 int main()
 {
 
+int edad;
 
 printf("Hola Daniel\n");
-printf("Este es mi primer programa de este curso curso\n");
 printf("Introduce tu edad:\n");
-scanf("%i",19);
-printf("\nTu edad es: %i \n");
+scanf("%i",&edad);
+
 return 0;
 }
 
