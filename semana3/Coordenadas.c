@@ -29,17 +29,9 @@ printf("\n El valor para φ en grados es:%f",p1);
 
 /* Ahora pasaremos de coordenadas esféricas a cartesianas */
 
-printf(";\n");
-printf("Ingrese una coordenada r:\n");
-scanf("%f",R);
-printf("Ingrese una coordenada θ:\n");
-scanf("%f",O);
-printf("Ingrese una coordenada φ:\n");
-scanf("%f",P);
-
-x1=R*sin(O)*cos(P);
-y1=R*sin(O)*sin(P);
-z1=R*cos(O);
+x1=r*sin(o1)*cos(p1);
+y1=r*sin(o1)*sin(p1);
+z1=r*cos(o1);
 
 printf("\n El valor de X es:%f",x1);
 printf("\n El valor de Y es:%f",y1);
