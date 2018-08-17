@@ -11,8 +11,8 @@ int main()
 int edad,edad2;
 char nombre;
 
-printf("¿Cual es tu nombre?\n");
-scanf("%c",&nombre);
+printf("¿Cuál es tu nombre?:\n");
+scanf("%s",&nombre);
 printf("Introduce tu edad:\n");
 scanf("%i",&edad);
 edad2=edad+10;
