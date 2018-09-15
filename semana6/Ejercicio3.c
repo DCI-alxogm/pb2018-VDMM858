@@ -3,7 +3,8 @@
 
 int main ()
 {
-    FILE *fp;
+    FILE *funciones;
+    funciones=fopen("funciones.txt","w");
 	float x,xp,ln,seno,coseno,raiz;
 	int in,fi,i,c;
 	
@@ -24,17 +25,13 @@ int main ()
 		seno=sin(x);
 		coseno=cos(x);
 		raiz=sqrt(x);
-		printf("El exponencial de X es:%f\n",xp);
-		printf("El logaritmo de X es:%f\n",ln);
-		printf("El seno de X es:%f\n",seno);
-		printf("El coseno de X es:%f\n",coseno);
-		printf("La raiz cuadrada de X es:%f\n",raiz);
+		fprintf(funciones,"El exponencial de X es:%f\n",xp);
+		fprintf(funciones,"El logaritmo de X es:%f\n",ln);
+		fprintf(funciones,"El seno de X es:%f\n",seno);
+		fprintf(funciones,"El coseno de X es:%f\n",coseno);
+		fprintf(funciones,"La raiz cuadrada de X es:%f\n",raiz);
 		}
-		}else{printf("su intervalo no es correcto\n");}
-    fp=fopen("func.txt","w");
-    fputs("El resultado de las funciones evaluadas es:\t",fp);
-    for(x=0;x<=i;x++){
-    fprintf(fp,"exp=%f \t seno=%f \t cos=%f \t raiz=%f \t ln=%f \n",xp,seno,coseno,raiz,ln);
-    } 
+		}else{fprintf(funciones,"su intervalo no es correcto\n");}
+   fclose(funciones); 
 return 0;
 }

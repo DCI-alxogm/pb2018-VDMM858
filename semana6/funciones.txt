@@ -1,0 +1,5 @@
+El exponencial de X es:7.389056
+El logaritmo de X es:0.693147
+El seno de X es:0.909297
+El coseno de X es:-0.416147
+La raiz cuadrada de X es:1.414214
