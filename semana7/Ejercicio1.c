@@ -6,4 +6,21 @@ Creado por Victor Daniel Mendoza Murillo*/
 
 int main()
 
-	FILE 
+	FILE *Datos;
+	FILE *Resultados;
+	int p,a,b,n,k;
+	float fx,x,h,dx,
+
+	Datos=fopen("Datos,txt""r");
+	
+	fscanf(Datos,"%i",&p);
+
+	fscanf(Datos,"%i",&a);
+
+	fscanf(Datos,"%i"&b);
+
+	fscanf(Datos,"%i"&n);
+
+	fscanf(Datos,"%i"&k)
+
+	fclose(Datos);

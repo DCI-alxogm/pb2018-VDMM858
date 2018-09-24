@@ -1,12 +1,12 @@
 Los datos resumidos son:
-El número de estudiantes de primer semestre es:0
-El número de estudiantes de segundo semestre es:0
-El número de estudiantes de tercer semestre es:0
-El número de estudiantes de cuarto semestre es:0
-El número de estudiantes de quinto semestre es:0
-El número de estudiantes de sexto semestre es:0
+El número de estudiantes de primer semestre es:2
+El número de estudiantes de segundo semestre es:1
+El número de estudiantes de tercer semestre es:1
+El número de estudiantes de cuarto semestre es:1
+El número de estudiantes de quinto semestre es:1
+El número de estudiantes de sexto semestre es:2
 El número de estudiantes de septimo semestre es:0
-El número de estudiantes de octavo semestre es:0
-El número de estudiantes de noveno semestre es:0
-De los estudiantes 1 son mujeres y 6 son hombres
-El promedio de los 10 alumnos es:-6840707561946118428295168.000000
+El número de estudiantes de octavo semestre es:1
+El número de estudiantes de noveno semestre es:1
+De los estudiantes 5 son mujeres y 5 son hombres
+El promedio de los 10 alumnos es:8.230000

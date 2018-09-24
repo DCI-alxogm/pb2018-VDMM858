@@ -15,14 +15,11 @@ int main()
 	da=fopen("DatosEjercicio2.txt","r");
 	for(i=0;i<N;i++){
 
-		fprintf(da,"Ingrese la edad\n");
 		fscanf(da,"%i",&e[i]);
 		
-		fprintf(da,"Ingrese el promedio\n");
 		fscanf(da,"%f",&p[i]);
 		promedio=promedio+p[i];
-   		
-		fprintf(da,"Ingrese el semestre que cursa (del 1 al 9)\n");
+
 		fscanf(da,"%i",&s[i]);
 		
 			if(s[i]==1)
@@ -43,15 +40,14 @@ int main()
 			    ++sem8;
 			else if(s[i]==9)
 			    ++sem9;
-		
-		fprintf(da,"Ingrese su sexo: 1 para femenino, 0 para masculino\n");
+
 		fscanf(da,"%i",&sexo[i]);
 		if(sexo[i]==0)h++;
 		else if(sexo[i]==1)m++;
 		}
 	fclose(da);
 
-	re=fopen("ResultadosEjercicio2.txt","r");
+	re=fopen("ResultadosEjercicio2.txt","w");
 	fputs("Los datos resumidos son:\n",re);
 		
 	fprintf(re,"El número de estudiantes de primer semestre es:%i\n",sem1);
