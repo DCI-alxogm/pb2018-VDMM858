@@ -1,0 +1,6 @@
+Reporte de Resultados 
+El fin del programa era crear una serie de matrices en las cuales se observará un aumento gradual de temperatura en los puntos de una placa cuyos bordes tenían temperaturas constantes. 
+Para hacer los cálculos utilizamos la ecuación de Gauss-Seidel.
+En la carpeta Resultados se encuentran las matrices que contienen las temperaturas en cada punto y en los bordes en cada una de las 26 iteraciones 
+En las gráficas anexadas en la carpeta de Gráficas se puede apreciar la evolución de la temperatura de la placa en cada una de las 26 iteraciones. 
+
