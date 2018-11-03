@@ -1,0 +1,6 @@
+proyectomake: main.c proyecto.c
+
+	gcc main.c proyecto.c -I ./lib -o Proyecto2_1.exe
+
+clean:
+	rm Proyecto2_1.o
