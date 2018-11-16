@@ -11,5 +11,8 @@ for i in range(1,len(sys.argv)):
     plt.imshow(data_img)
     plt.colorbar()
     plt.savefig(file+'.png')
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> a7c3b37938983be9522c00be35561c0a23771bb1
